@@ -1,0 +1,29 @@
+@import "compass/css3/font-face";
+@import "reset";
+@include font-face("Helvetica", font-files('/fonts/HelveticaLTStd-Light.otf', 'otf'));
+#container{
+	max-width:960px;
+	width:100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+	background-image: url("../images/background.jpg");
+	background-attachment:fixed;
+	text-align: center;
+	font-family: "HelveticaLTStd-Light", "Helvetica LT Std Light", Helvetica, Arial;
+	color: #fff;
+	font-size: 32px;
+	line-height: 1.5;
+}
+.logo{
+	margin-top: 2.5em;	
+	margin-bottom: 2.5em;
+	width: 90%;
+}
+hr{
+	border: 3px dashed white;
+}
