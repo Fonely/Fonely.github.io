@@ -21,9 +21,9 @@
         <div id="container">
            <img class="logo" src="images/Fonely.png" alt="Fonely App">
         <p>Fonely is an amazing app that lets you play telephone &#8212; Socially.
-        Here's a video on how we <i>wish</i> it worked</p>
+        Here's a video on how we <em>wish</em> it worked</p>
         <hr>
-        <a href="" class="download"><img src="download.png" alt=""></a>
+        <a href="" class="download"><?php include('images/Android-app-on-google-play.svg') ?></a>
         <div class="social">Follow Us on Social Media and Stuff
         <hr>
         <a href=""><img src="" alt=""></a>
