@@ -27,15 +27,11 @@ body{
 hr{
 	border: 3px dashed white;
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 8000px){
-	.download>img{
-		width: 50%;
-	}
-}
+
 .download>img{
 	margin-top: .5em;	
 	margin-bottom: 1em;	
-	width: 80%;
+	width: 300px;
 }
 .social>a>img{
 	width:50px;
