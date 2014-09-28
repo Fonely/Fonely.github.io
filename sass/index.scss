@@ -20,16 +20,23 @@ body{
 	line-height: 1.5;
 }
 .logo{
+	width: 90%;
 	margin-top: 2.5em;	
 	margin-bottom: 2.5em;
-	width: 90%;
 }
 hr{
 	border: 3px dashed white;
 }
-svg{
-		@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-	width: 100%;
+@media only screen and (min-device-width : 768px) and (max-device-width : 8000px){
+	.download>img{
+		width: 50%;
 	}
-	width: 50%;
+}
+.download>img{
+	margin-top: .5em;	
+	margin-bottom: 1em;	
+	width: 80%;
+}
+.social>a>img{
+	width:50px;
 }
